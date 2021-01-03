@@ -1,0 +1,59 @@
+.card {
+    width: 75%;
+    height: 32rem;
+    background-color:#00587a;
+    margin: 7rem auto 7rem auto;
+    border-radius: 1rem;
+    
+    border-bottom: 20px solid darken(teal, 5%);
+    border-left: 20px solid darken(teal, 5%);
+    
+    filter: drop-shadow(-15px 13px 3px rgba(0,0,0,0.5));
+    
+}
+.card_heading {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#4e8d7c;
+    font-family: 'Fugaz One', cursive;
+
+}
+.card_content {
+    text-align: justify;
+    color: #008891;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    overflow: hidden;
+    
+    
+    padding: 1rem 1rem 1rem 1rem;
+}
+.card_content:hover {
+    text-align: justify;
+    color: #008891;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+    padding: 1rem 1rem 1rem 1rem;
+}
+.card_lights {
+    width: 100%;
+    margin-top: 10px;
+    height: 4rem;
+}
+.indexpagecard_footer {
+    height:1rem;
+    width:100%;
+    
+}
+.different_card_symbol{
+    widows: 50%;
+    height:5rem;
+    position: absolute;
+    top:-2rem;
+    left:-2rem;
+    
+}
