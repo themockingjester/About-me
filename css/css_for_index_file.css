@@ -1,0 +1,315 @@
+a 
+{
+    color: black;
+}
+a:hover
+{
+    color:#19456b;
+}
+body{
+    margin: 0;
+    
+
+    background-color: #a3d2ca;
+}
+ /* width */
+ ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+  } 
+
+
+.upper_string_decoration_div {
+    width: auto;
+    
+    padding-top: 0px;
+    padding-bottom: 2rem;
+    height: 5rem;
+    
+
+}
+.lower_mountainimage {
+    margin: 2rem 0 0 0;
+    height: 20rem;
+    width: 100%;
+}
+.upper_decoration_image {
+    max-width: 100%;
+    min-width:100%;
+    height:7rem;
+    vertical-align: middle;
+    
+}
+
+.index_page_heading {
+    text-align: center;
+    font-size: 8rem;
+    padding-bottom: 0rem;
+    color: #5eaaa8;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.index_page_sub_heading {
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1rem;
+    color: #5eaaa8;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.indexpage_heading_box {
+    margin-top: 17rem;
+    margin-bottom: 17rem;
+    
+}
+.indexpage_fence_image {
+    margin: auto 0px auto 0px;
+    min-width:100%;
+
+    max-width: 100%;
+    height:20rem;
+}
+.left_cloud_indexpage {
+    width: 15%;
+    height: 15%;
+    top: 5rem;
+    position: absolute;
+    
+    
+}
+.right_cloud_indexpage {
+    width: 15%;
+    height: 15%;
+    bottom: 60%;
+    left: 75%;
+    position: absolute;
+    
+    
+}
+.dot_seperator {
+    margin: 15rem auto;
+    background-color:#a3d2ca ;
+    border:  #5eaaa8;
+    border-style: dotted;
+    border-top: none;
+    border-width: 10px;
+
+    width: 10%;
+}
+.indexpage_subheading_styles {
+    text-align: center;
+    font-size: 7rem;
+    margin:10rem auto;
+    color:#4e8d7c;
+    font-family: 'Monoton', cursive;
+    
+    width:70%;
+}
+.skill_image_leftside {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-right: 1rem;
+}
+.skill_image_rightside {
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin-left: 1rem;
+}
+
+.skills_subheadings {
+    text-align: center;
+    font-size: 3rem;
+    color:#4e8d7c;
+    font-family: 'Changa', sans-serif;
+    margin-bottom: 2rem;
+}
+.skill_box {
+    margin: 10rem 20% 10rem 20%;
+}
+.skill_headingrelated_information {
+    text-align: justify;
+    color: #045762;
+    font-family: 'Fugaz One', cursive;
+}
+.indexpage_skills_boss_subbheadings {
+    text-align: center;
+    font-size: 4rem;
+    color:#4e8d7c;
+    font-family: 'Changa', sans-serif;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+}
+.project_subheadings {
+    text-align: center;
+    font-size: 3rem;
+    color:#4e8d7c;
+    font-family: 'Changa', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.designer-photo {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 20rem;
+    border: solid;
+    border-width: 1rem;
+    border-color: #686d76;
+}
+.div_for_designer-image {
+    text-align: center;
+    margin: 2rem auto;
+    
+}
+.getintouch_heading_at_indexpage {
+    font-family: 'Pacifico', cursive;
+    font-size: 4.5vw;
+    color:#4e8d7c;
+    text-align: center;
+
+}
+.connection-icons-div {
+    text-align: center;
+    margin: 8rem 5%;
+    font-size: 1.2vw;
+    width:90%;
+    
+    
+}
+.connection_icons {
+    margin: 0rem 0.6rem;
+    
+}
+.connection_icons_child_div {
+    display: inline;
+    
+    
+}
+.carousel-images {
+    float: left;
+    width:30%;
+    margin-right: 1.5rem;
+    margin-left: 2.5rem;
+    height: 30%;
+}
+.carousel_content_div {
+    text-align: center;
+    
+    height: 100%;
+    padding:5rem auto;
+    width: 100%;
+    
+}
+#carouselExampleControls {
+    height: 30rem;
+    
+    
+}
+#carouselForCerificatesControls
+{
+
+    height: 30rem;
+}
+.carousel-item {
+    padding: 7rem 10%;
+}
+.carousel-subheadings {
+    text-align: center;
+    font-size: 3rem;
+    
+    color:#4e8d7c;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10rem;
+}
+
+
+/* setting indexpage skills boss subheadings */
+@media (max-width: 998px)
+{
+    .indexpage_skills_boss_subbheadings
+    {
+        font-size: 3rem;
+        
+    }
+    .indexpage_subheading_styles 
+    {
+        font-size: 5rem;
+        
+        
+    }
+}
+@media (max-width: 723px)
+{
+    .indexpage_skills_boss_subbheadings
+    {
+        font-size: 2rem;
+        
+    }
+    .indexpage_subheading_styles 
+    {
+        font-size: 2.5rem;
+        
+    }
+    .skills_subheadings
+    {
+        font-size: 1.1rem;
+        
+    }
+}
+
+/* setting indexpage heading */
+@media (max-width: 845px)
+{
+    .index_page_heading
+    {
+        font-size: 6rem;
+        
+    }
+}
+
+@media (max-width: 547px)
+{
+    .index_page_heading
+    {
+        font-size: 4rem;
+        
+    }
+}
+
+/* setting interest  carousel content */
+@media (max-width: 1285px)
+{
+    .carousel-subheadings
+    {
+       font-size:3rem; 
+    }
+}
+@media (max-width: 1050px)
+{
+    .carousel-subheadings
+    {
+       font-size:2rem; 
+    }
+}
+@media (max-width: 816px)
+{
+    .carousel-subheadings
+    {
+       font-size:1.2rem; 
+    }
+}
